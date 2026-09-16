@@ -32,3 +32,4 @@ jobs:
           sbom-file: emf-validation-bom.json
           product-name: 'EMF Validation'
           product-version: ${{ steps.build.outputs.PROJECT_VERSION }}
+          staging: true
